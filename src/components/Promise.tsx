@@ -23,8 +23,8 @@ export default function Promise() {
 
   return (
     <section className="bg-black text-[#F3F3F3] py-28 px-6 relative">
-      <div className="absolute inset-0 opacity-3">
-        <div className="absolute -top-40 right-0 w-96 h-96 bg-[#FFD700] rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#FFD700]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-5xl mx-auto relative z-10">

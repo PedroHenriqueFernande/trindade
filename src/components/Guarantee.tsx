@@ -3,8 +3,8 @@ import { Shield, Check } from 'lucide-react';
 export default function Guarantee() {
   return (
     <section className="bg-black text-[#F3F3F3] py-28 px-6 relative">
-      <div className="absolute inset-0 opacity-3">
-        <div className="absolute top-1/2 left-1/4 w-80 h-80 bg-[#FFD700] rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute top-1/2 -left-40 -translate-y-1/2 w-80 h-80 bg-[#FFD700]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-4xl mx-auto relative z-10">
@@ -18,7 +18,7 @@ export default function Guarantee() {
           </div>
 
           <h2 className="font-['LogoFont'] font-extrabold text-4xl md:text-5xl mb-10 leading-tight">
-            Você tem 30 dias completos para testar — sem risco nenhum.
+            Você tem 30 dias completos para testar. Sem risco nenhum.
           </h2>
 
           <p className="font-['Inter'] text-lg leading-relaxed text-[#D0D0D0] max-w-2xl mx-auto mb-10">

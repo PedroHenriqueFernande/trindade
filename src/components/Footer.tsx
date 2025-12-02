@@ -44,7 +44,7 @@ export default function Footer() {
 
           <div className="text-center text-xs text-[#808080]">
             <p className="font-['Inter']">
-              © 2025 Trindade do Sexo — Todos os direitos reservados.
+              © 2025 Trindade do Sexo - Todos os direitos reservados.
             </p>
           </div>
         </div>

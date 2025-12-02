@@ -53,8 +53,8 @@ export default function FAQ() {
 
   return (
     <section className="bg-black text-[#F3F3F3] py-28 px-6 relative">
-      <div className="absolute inset-0 opacity-3">
-        <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-[#FFD700] rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute -bottom-40 -right-40 w-80 h-80 bg-[#FFD700]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-4xl mx-auto relative z-10">

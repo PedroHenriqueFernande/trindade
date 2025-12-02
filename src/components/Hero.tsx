@@ -4,9 +4,9 @@ import CTAButton from './CTAButton';
 export default function Hero() {
   return (
     <section className="min-h-screen bg-black text-[#F3F3F3] py-24 px-6 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#FFD700] rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#FFD700] rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#FFD700]/5 rounded-full blur-3xl opacity-5"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#FFD700]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-5xl mx-auto text-center relative z-10">
@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
 
         <h1 className="font-['LogoFont'] font-extrabold text-5xl md:text-7xl leading-tight mb-8 tracking-tight uppercase">
-          Se você já falhou ou tem medo de falhar com uma mulher na cama, hoje é o dia em que tudo muda.
+          SENTE VERGONHA POR NÃO CONSEGUIR SATISFAZER AS MULHERES NA CAMA? ISSO MUDA AGORA.
         </h1>
 
         <div className="h-1 w-24 bg-gradient-to-r from-[#D4AF37] via-[#FFD700] to-[#E6C35C] mx-auto mb-8"></div>
@@ -27,7 +27,7 @@ export default function Hero() {
         </h2>
 
         <p className="font-['Inter'] text-lg md:text-xl leading-relaxed mb-12 text-[#E0E0E0] max-w-3xl mx-auto">
-          Domine o prazer feminino, acabe com a ejaculação precoce e recupere uma ereção forte como ferro — tudo em um único curso rápido que resolve o que você tenta esconder até de você mesmo.
+          Domine o prazer feminino, acabe com a ejaculação precoce e recupere uma ereção forte como ferro e tudo em um único curso rápido que resolve o que você tenta esconder até de você mesmo.
         </p>
 
         <div className="bg-gradient-to-b from-[#1A1A1A] to-black border-t border-[#FFD700] border-opacity-20 rounded-xl p-10 md:p-14 mb-14 max-w-3xl mx-auto backdrop-blur-sm">
@@ -66,14 +66,14 @@ export default function Hero() {
               <CheckCircle2 className="text-[#FFD700] flex-shrink-0 mt-1" size={24} />
               <span className="font-['Inter'] text-base md:text-lg">Controle total da excitação</span>
             </div>
-            <div className="flex items-center md:col-span-2 justify-center gap-3">
-              <CheckCircle2 className="text-[#FFD700] flex-shrink-0" size={24} />
+            <div className="flex items-start gap-3 md:col-span-2 md:justify-center">
+              <CheckCircle2 className="text-[#FFD700] flex-shrink-0 mt-1" size={24} />
               <span className="font-['Inter'] text-base md:text-lg">Confiança sexual instantânea</span>
             </div>
           </div>
         </div>
 
-        <CTAButton text="QUERO VIRAR O HOMEM QUE ELA NUNCA ESQUECERÁ" />
+        <CTAButton text="QUERO ME TRANSFORMAR EM UMA MÁQUINA" />
 
         <div className="mt-10 flex flex-wrap justify-center gap-4 text-[#B0B0B0] text-sm font-['Inter']">
           <span className="flex items-center gap-1"><Sparkles size={14} className="text-[#FFD700]" /> Acesso imediato</span>

@@ -4,8 +4,8 @@ import CTAButton from './CTAButton';
 export default function FinalCTA() {
   return (
     <section className="bg-black text-[#F3F3F3] py-28 px-6 relative">
-      <div className="absolute inset-0 opacity-3">
-        <div className="absolute -top-40 left-1/2 w-96 h-96 bg-[#FFD700] rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#FFD700]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -20,7 +20,7 @@ export default function FinalCTA() {
         </div>
 
         <p className="font-['Inter'] text-xl md:text-2xl leading-relaxed mb-14 text-[#D0D0D0]">
-          Não deixe pra depois — uma hora ou outra você terá que transar, então pelo menos aprenda a fazer direito.
+          Não deixe pra depois, uma hora ou outra você terá que transar, então pelo menos aprenda a fazer direito.
         </p>
 
         <div className="bg-gradient-to-br from-[#1A1A1A] to-black border border-[#FFD700] border-opacity-40 rounded-2xl p-10 md:p-14 mb-14">

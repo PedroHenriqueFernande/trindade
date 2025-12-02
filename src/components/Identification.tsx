@@ -13,19 +13,19 @@ export default function Identification() {
 
   return (
     <section className="bg-black text-[#F3F3F3] py-28 px-6 relative">
-      <div className="absolute inset-0 opacity-3">
-        <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#FFD700] rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute -top-40 -left-40 w-96 h-96 bg-[#FFD700]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-5xl mx-auto relative z-10">
         <div className="h-px bg-gradient-to-r from-transparent via-[#FFD700] to-transparent mb-16"></div>
 
         <h2 className="font-['LogoFont'] font-extrabold text-4xl md:text-5xl text-center leading-tight mb-12">
-          Você não está sozinho. Metade dos homens sofre com isso — e o que você sente é mais comum do que imagina.
+          Você não está sozinho. Metade dos homens sofre com isso, e o que você sente é mais comum do que imagina.
         </h2>
 
         <p className="font-['Inter'] text-lg md:text-xl leading-relaxed text-center mb-14 max-w-3xl mx-auto text-[#D0D0D0]">
-          Todo homem já passou por momentos de falhar, gozar rápido demais, perder a ereção, não saber como fazer ela gozar, sentir vergonha, medo, ansiedade, insegurança — e fingir que está tudo bem.
+          Todo homem já passou por momentos de falhar, gozar rápido demais, perder a ereção, não saber como fazer ela gozar, sentir vergonha, medo, ansiedade, insegurança. E fingir que está tudo bem.
         </p>
 
         <div className="bg-gradient-to-br from-[#1A1A1A] via-black to-[#0F0F0F] border border-[#FFD700] border-opacity-30 rounded-2xl p-10 md:p-14 mb-14 max-w-3xl mx-auto backdrop-blur-sm">
