@@ -1,6 +1,6 @@
 import {
   BookOpen, Activity, Zap, Heart, Shield, Brain,
-  Clock, Flame, Target, Smile, ShieldCheck, ThumbsUp, Sparkles
+  Clock, Flame, Target, Smile, ShieldCheck, ThumbsUp
 } from 'lucide-react';
 import CTAButton from './CTAButton';
 
@@ -27,11 +27,11 @@ export default function Promise() {
   return (
     <section className="bg-black text-[#F3F3F3] py-8 px-6 relative">
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#E5C558]/5 rounded-full blur-3xl opacity-5"></div>
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-[#D4AF37]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <div className="h-px bg-gradient-to-r from-transparent via-[#E5C558] to-transparent mb-6"></div>
+        <div className="h-px bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6"></div>
 
         <h2 className="font-['Bebas_Neue'] font-normal text-4xl md:text-5xl text-center leading-tight mb-12 tracking-wide">
           Você pode elevar seu desempenho sexual muito mais rápido do que imagina.
@@ -39,7 +39,7 @@ export default function Promise() {
 
         <div className="mb-12">
           <div className="flex items-center justify-center gap-2 mb-8">
-            <h3 className="font-['Montserrat'] font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-[#E5C558] to-[#C9AD6A] bg-clip-text text-transparent whitespace-nowrap">
+            <h3 className="font-['Montserrat'] font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent whitespace-nowrap">
               POR QUE FUNCIONA
             </h3>
           </div>
@@ -48,10 +48,10 @@ export default function Promise() {
             {methodology.map((item, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-[#1A1A1A] via-black to-[#0F0F0F] border border-[#E5C558] border-opacity-30 rounded-2xl p-6 backdrop-blur-sm hover:border-opacity-60 transition-all duration-300 group"
+                className="bg-gradient-to-br from-[#1A1A1A] via-black to-[#0F0F0F] border border-[#D4AF37] border-opacity-30 rounded-2xl p-6 backdrop-blur-sm hover:border-opacity-60 transition-all duration-300 group"
               >
                 <div className="flex flex-col items-center text-center gap-4">
-                  <div className="bg-gradient-to-br from-[#AD9255] via-[#E5C558] to-[#AD9255] rounded-full p-4 shadow-[0_0_20px_rgba(229,197,88,0.3)] group-hover:shadow-[0_0_30px_rgba(229,197,88,0.5)] transition-all duration-300 border border-[#E5C558] border-opacity-50">
+                  <div className="bg-gradient-to-br from-[#B8941E] via-[#D4AF37] to-[#F4E5B0] rounded-full p-4 shadow-[0_0_20px_rgba(212,175,55,0.3)] group-hover:shadow-[0_0_30px_rgba(212,175,55,0.5)] transition-all duration-300 border border-[#D4AF37] border-opacity-50">
                     <item.icon className="text-black" size={32} />
                   </div>
                   <span className="font-['Inter'] text-lg font-medium text-[#E0E0E0]">{item.text}</span>
@@ -63,7 +63,7 @@ export default function Promise() {
 
         <div className="mb-12">
           <div className="flex items-center justify-center gap-2 mb-8">
-            <h3 className="font-['Montserrat'] font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-[#E5C558] to-[#C9AD6A] bg-clip-text text-transparent">
+            <h3 className="font-['Montserrat'] font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent">
               RESULTADOS
             </h3>
           </div>
@@ -72,10 +72,10 @@ export default function Promise() {
             {results.map((item, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-[#1A1A1A] via-black to-[#0F0F0F] border border-[#E5C558] border-opacity-30 rounded-2xl p-6 backdrop-blur-sm hover:border-opacity-60 transition-all duration-300 group"
+                className="bg-gradient-to-br from-[#1A1A1A] via-black to-[#0F0F0F] border border-[#D4AF37] border-opacity-30 rounded-2xl p-6 backdrop-blur-sm hover:border-opacity-60 transition-all duration-300 group"
               >
                 <div className="flex flex-col items-center text-center gap-4">
-                  <div className="bg-gradient-to-br from-[#AD9255] via-[#E5C558] to-[#AD9255] rounded-full p-4 shadow-[0_0_20px_rgba(229,197,88,0.3)] group-hover:shadow-[0_0_30px_rgba(229,197,88,0.5)] transition-all duration-300 border border-[#E5C558] border-opacity-50">
+                  <div className="bg-gradient-to-br from-[#B8941E] via-[#D4AF37] to-[#F4E5B0] rounded-full p-4 shadow-[0_0_20px_rgba(212,175,55,0.3)] group-hover:shadow-[0_0_30px_rgba(212,175,55,0.5)] transition-all duration-300 border border-[#D4AF37] border-opacity-50">
                     <item.icon className="text-black" size={32} />
                   </div>
                   <span className="font-['Inter'] text-lg font-medium text-[#E0E0E0]">{item.text}</span>

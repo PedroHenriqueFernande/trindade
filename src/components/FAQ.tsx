@@ -54,23 +54,23 @@ export default function FAQ() {
   return (
     <section className="bg-black text-[#F3F3F3] py-8 px-6 relative">
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute -bottom-40 -right-40 w-80 h-80 bg-[#E5C558]/5 rounded-full blur-3xl opacity-5"></div>
+        <div className="absolute -bottom-40 -right-40 w-80 h-80 bg-[#D4AF37]/5 rounded-full blur-3xl opacity-5"></div>
       </div>
 
       <div className="max-w-4xl mx-auto relative z-10">
-        <div className="h-px bg-gradient-to-r from-transparent via-[#E5C558] to-transparent mb-6"></div>
+        <div className="h-px bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6"></div>
 
         <div className="flex items-center justify-center gap-3 mb-6">
-          <HelpCircle className="text-[#E5C558]" size={28} />
-          <h2 className="font-['Bebas_Neue'] font-normal text-4xl md:text-5xl text-center bg-gradient-to-r from-[#E5C558] to-[#C9AD6A] bg-clip-text text-transparent tracking-wide">
+          <HelpCircle className="text-[#D4AF37]" size={28} />
+          <h2 className="font-['Bebas_Neue'] font-normal text-4xl md:text-5xl text-center bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent tracking-wide">
             Perguntas Frequentes
           </h2>
-          <HelpCircle className="text-[#E5C558]" size={28} />
+          <HelpCircle className="text-[#D4AF37]" size={28} />
         </div>
 
         <div className="space-y-3">
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-gradient-to-br from-[#1A1A1A] to-black border border-[#E5C558] border-opacity-30 rounded-xl overflow-hidden hover:border-opacity-50 transition-all duration-300">
+            <div key={index} className="bg-gradient-to-br from-[#1A1A1A] to-black border border-[#D4AF37] border-opacity-30 rounded-xl overflow-hidden hover:border-opacity-50 transition-all duration-300">
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full flex items-center justify-between p-6 text-left hover:bg-[#0F0F0F] transition-colors"
@@ -79,14 +79,14 @@ export default function FAQ() {
                   {faq.question}
                 </span>
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#E5C558] flex-shrink-0" size={24} />
+                  <ChevronUp className="text-[#D4AF37] flex-shrink-0" size={24} />
                 ) : (
-                  <ChevronDown className="text-[#E5C558] flex-shrink-0" size={24} />
+                  <ChevronDown className="text-[#D4AF37] flex-shrink-0" size={24} />
                 )}
               </button>
 
               {openIndex === index && (
-                <div className="px-6 pb-6 bg-gradient-to-b from-black to-[#0F0F0F] border-t border-[#E5C558] border-opacity-20">
+                <div className="px-6 pb-6 bg-gradient-to-b from-black to-[#0F0F0F] border-t border-[#D4AF37] border-opacity-20">
                   <p className="font-['Inter'] text-base leading-relaxed text-[#D0D0D0]">
                     {faq.answer}
                   </p>
