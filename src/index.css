@@ -15,10 +15,31 @@
 .custom-video::-webkit-media-controls-volume-slider,
 .custom-video::-webkit-media-controls-fullscreen-button,
 .custom-video::-internal-media-controls-download-button,
-.custom-video::-webkit-media-controls-timeline {
+.custom-video::-webkit-media-controls-timeline,
+.custom-video::-webkit-media-controls-current-time-display,
+.custom-video::-webkit-media-controls-time-remaining-display,
+.custom-video::-webkit-media-controls-seek-back-button,
+.custom-video::-webkit-media-controls-seek-forward-button,
+.custom-video::-webkit-media-controls-picture-in-picture-button {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
+  -webkit-appearance: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  pointer-events: none !important;
+}
+
+.custom-video::-moz-media-controls {
+  display: none !important;
+}
+
+.custom-video::-ms-media-controls {
+  display: none !important;
+}
+
+.custom-video::-o-media-controls {
+  display: none !important;
 }
 
 .price-line::after {

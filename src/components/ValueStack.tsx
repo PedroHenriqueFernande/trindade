@@ -1,4 +1,3 @@
-import { Zap } from 'lucide-react';
 import CTAButton from './CTAButton';
 
 export default function ValueStack() {
@@ -19,12 +18,10 @@ export default function ValueStack() {
         <div className="h-px bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6"></div>
 
         <div className="bg-gradient-to-br from-[#1A1A1A] to-black border border-[#D4AF37] border-opacity-40 rounded-2xl p-10 md:p-14 mb-12">
-          <div className="flex items-center justify-center gap-3 mb-12">
-            <Zap className="text-[#D4AF37]" size={28} />
-            <h2 className="font-['Bebas_Neue'] font-normal text-3xl md:text-4xl bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent tracking-wide">
+          <div className="flex items-center justify-center mb-12">
+            <h2 className="font-['Bebas_Neue'] font-normal text-3xl md:text-4xl bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent tracking-wide text-center animate-pulse-light">
               VALOR TOTAL DO CURSO
             </h2>
-            <Zap className="text-[#D4AF37]" size={28} />
           </div>
 
           <div className="space-y-4 mb-8">
@@ -57,7 +54,7 @@ export default function ValueStack() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-[#D4AF37] via-[#F4E5B0] to-[#D4AF37] border-2 border-[#D4AF37] border-opacity-60 rounded-xl p-8 md:p-10 text-center mb-6">
+          <div className="bg-gradient-to-r from-[#D4AF37]/60 via-[#F4E5B0]/60 to-[#D4AF37]/60 border-2 border-[#D4AF37] border-opacity-60 rounded-xl p-8 md:p-10 text-center mb-6 -mx-9 md:-mx-[52px]">
             <p className="font-['Inter'] text-lg mb-3 text-black font-medium">INVESTIMENTO HOJE:</p>
             <p className="font-['Montserrat'] font-extrabold text-6xl md:text-7xl text-black mb-4">R$ 69,90</p>
             <p className="font-['Montserrat'] font-bold text-xl text-black mt-2">
@@ -65,7 +62,7 @@ export default function ValueStack() {
             </p>
           </div>
 
-          <CTAButton text="GARANTIR ACESSO POR R$ 69,90" />
+          <CTAButton text="Garantir meu acesso" />
 
           <p className="text-center text-[#A0A0A0] mt-8 font-['Inter'] text-sm">
             Oferta por tempo limitado. O preço pode aumentar a qualquer momento.

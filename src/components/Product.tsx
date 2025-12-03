@@ -44,8 +44,8 @@ export default function Product() {
           Esse curso reúne tudo que um homem precisa para dominar o prazer feminino, durar mais e ter ereção de ferro.
         </h2>
 
-        <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-left md:text-center mb-6 max-w-3xl mx-auto text-[#D0D0D0]">
-          Simples. Direto. Aplicável. Conteúdo explícito com orientação clara.
+        <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-center mb-6 max-w-3xl mx-auto text-[#D0D0D0]">
+          Este método foi criado para ser simples e direto: você aprende exatamente o que realmente importa para ter desempenho, controle e firmeza. Nada de teoria inútil, apenas o que transforma seu resultado na prática. Estes são os 6 pilares que sustentam toda a sua evolução
         </p>
 
         <div className="bg-gradient-to-br from-[#1A1A1A] to-black border border-[#D4AF37] border-opacity-30 rounded-2xl p-10 md:p-14 mb-4">
