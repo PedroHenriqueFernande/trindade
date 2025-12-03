@@ -21,7 +21,7 @@ export default function Guarantee() {
             Você tem 30 dias completos para testar. Sem risco nenhum.
           </h2>
 
-          <p className="font-['Inter'] text-lg leading-relaxed text-[#D0D0D0] max-w-2xl mx-auto mb-6">
+          <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-left md:text-center text-[#D0D0D0] max-w-3xl mx-auto mb-6">
             Se por qualquer motivo você não ficar satisfeito com o curso, basta enviar um único email dentro dos primeiros 30 dias e devolvemos 100% do seu investimento. Sem perguntas, sem burocracia, sem complicação.
           </p>
 

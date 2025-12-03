@@ -40,11 +40,11 @@ export default function Product() {
       <div className="max-w-5xl mx-auto relative z-10">
         <div className="h-px bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent mb-6"></div>
 
-        <h2 className="font-['Bebas_Neue'] font-normal text-4xl md:text-5xl text-center leading-tight mb-4 tracking-wide">
-          A Trindade do Prazer Máximo reúne tudo que um homem precisa para dominar o prazer feminino, durar mais e ter ereção de ferro.
+        <h2 className="font-['Bebas_Neue'] font-normal text-5xl md:text-6xl text-center leading-tight mb-4 tracking-wide animate-pulse-light">
+          Esse curso reúne tudo que um homem precisa para dominar o prazer feminino, durar mais e ter ereção de ferro.
         </h2>
 
-        <p className="font-['Inter'] text-xl text-center mb-6 text-[#D0D0D0]">
+        <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-left md:text-center mb-6 max-w-3xl mx-auto text-[#D0D0D0]">
           Simples. Direto. Aplicável. Conteúdo explícito com orientação clara.
         </p>
 
@@ -54,7 +54,7 @@ export default function Product() {
           </h3>
           <div className="grid md:grid-cols-3 gap-6">
             {pillars.map((pillar, index) => (
-              <div key={index} className="bg-gradient-to-br from-[#1A1A1A] to-black border border-[#D4AF37] border-opacity-20 rounded-xl p-6 text-center hover:border-opacity-50 transition-all">
+              <div key={index} className="bg-gradient-to-br from-[#1A1A1A] via-black to-[#0F0F0F] border border-[#D4AF37] border-opacity-30 rounded-2xl p-6 backdrop-blur-sm hover:border-opacity-60 transition-all duration-300 group text-center">
                 <p className="font-['Montserrat'] font-bold text-lg">{pillar}</p>
               </div>
             ))}
@@ -86,12 +86,12 @@ export default function Product() {
           </div>
         </div>
 
-        <h3 className="font-['Montserrat'] font-extrabold text-2xl md:text-3xl bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent mb-6 text-center mt-12">
-          5 BÔNUS EXCLUSIVOS
-        </h3>
+        <p className="font-['Montserrat'] font-extrabold text-4xl md:text-5xl text-white mb-6 text-center mt-20">
+          Levando hoje o curso, você receberá 5 bonus <span className="bg-gradient-to-r from-[#5E0B0B] via-[#C41E1E] to-[#5E0B0B] bg-clip-text text-transparent">exclusivos</span>
+        </p>
 
-        <p className="font-['Inter'] text-lg md:text-xl leading-relaxed text-center mb-8 max-w-4xl mx-auto text-[#D0D0D0]">
-          Você já entendeu que a Trindade do Prazer Máximo, sozinha, já resolveria tudo que te trava na cama. Mas eu não quero que você apenas resolva. Quero que você ultrapasse todos os homens comuns. É por isso que eu fiz algo que, honestamente, eu nem precisava ter feito: incluí CINCO bônus exclusivos que transformam você em um homem completamente acima da média.
+        <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-left md:text-center mb-6 max-w-3xl mx-auto text-[#D0D0D0]">
+          Você já entendeu que a Trindade do Prazer Máximo, sozinha, já resolveria tudo que te trava na cama. Mas eu não quero que você apenas resolva. Quero que você <span className="bg-gradient-to-r from-[#5E0B0B] via-[#C41E1E] to-[#5E0B0B] bg-clip-text text-transparent">ultrapasse todos os homens comuns</span>. É por isso que eu fiz algo que, honestamente, eu nem precisava ter feito: incluí CINCO bônus <span className="bg-gradient-to-r from-[#5E0B0B] via-[#C41E1E] to-[#5E0B0B] bg-clip-text text-transparent">exclusivos</span> que transformam você em um homem completamente acima da média.
         </p>
 
         <div className="bg-gradient-to-br from-[#1A1A1A] to-black border border-[#D4AF37] border-opacity-30 rounded-2xl p-10 md:p-14 mb-4">

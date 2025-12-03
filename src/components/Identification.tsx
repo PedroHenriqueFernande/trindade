@@ -42,11 +42,11 @@ export default function Identification() {
           Você não está sozinho. Metade dos homens sofrem com isso, e o que você sente é mais comum do que imagina.
         </h2>
 
-        <p className="font-['Inter'] text-lg md:text-xl leading-relaxed text-center mb-4 max-w-3xl mx-auto text-[#D0D0D0]">
-          Todo homem já passou por momentos de falhar, gozar rápido demais, perder a ereção, não saber como fazer ela gozar, sentir vergonha, medo, ansiedade, insegurança. E fingir que está tudo bem.
+        <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-center mb-4 max-w-3xl mx-auto text-[#D0D0D0]">
+          Todo homem já passou por momentos de falhar, gozar rápido demais, perder a ereção, não saber como fazer ela gozar, sentir vergonha, medo, ansiedade, insegurança. E fingir que está tudo bem, mas você sabe que não está, você sente:
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10 md:mb-12">
           {painPoints.map((item, index) => (
             <div
               key={index}
@@ -62,8 +62,8 @@ export default function Identification() {
           ))}
         </div>
 
-        <div className="text-center mb-6">
-          <div className="flex items-center justify-center gap-3 mb-6">
+        <div className="text-center mb-8 md:mb-10">
+          <div className="flex items-center justify-center gap-3 mb-6 mt-2 md:mt-4">
             <p className="font-['Montserrat'] font-extrabold text-3xl md:text-4xl bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent">
               Você não precisa continuar vivendo assim.
             </p>

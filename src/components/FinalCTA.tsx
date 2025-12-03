@@ -19,7 +19,7 @@ export default function FinalCTA() {
           <Flame className="text-[#D4AF37]" size={28} />
         </div>
 
-        <p className="font-['Inter'] text-xl md:text-2xl leading-relaxed mb-4 text-[#D0D0D0]">
+        <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-left md:text-center mb-4 max-w-3xl mx-auto text-[#D0D0D0]">
           Não deixe pra depois, uma hora ou outra você terá que transar, então pelo menos aprenda a fazer direito.
         </p>
 

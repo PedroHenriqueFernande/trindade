@@ -3,9 +3,9 @@ import CTAButton from './CTAButton';
 
 export default function ValueStack() {
   const items = [
-    { name: 'Módulos 1, 2 e 3', value: 'R$ 100,00' },
-    { name: 'Módulo 4 - Anti-ejaculação precoce', value: 'R$ 49,90' },
-    { name: 'Módulo 5 - Anti-impotência', value: 'R$ 49,90' },
+    { name: 'Aulas Práticas', value: 'R$ 100,00' },
+    { name: 'Protocolo Contra Ejaculação Precoce', value: 'R$ 49,90' },
+    { name: 'Método Ereção de Ferro', value: 'R$ 49,90' },
     { name: '5 Bônus Exclusivos', value: 'R$ 149,50' }
   ];
 
@@ -27,25 +27,39 @@ export default function ValueStack() {
             <Zap className="text-[#D4AF37]" size={28} />
           </div>
 
-          <div className="space-y-4 mb-6">
-            {items.map((item, index) => (
-              <div key={index} className="flex justify-between items-center bg-gradient-to-r from-[#1A1A1A] to-black border-b-2 border-[#D4AF37] border-opacity-20 pb-5">
-                <span className="font-['Inter'] text-lg">{item.name}</span>
-                <span className="font-['Montserrat'] font-bold text-lg bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent">{item.value}</span>
-              </div>
-            ))}
+          <div className="space-y-4 mb-8">
+            {items.map((item, index) => {
+              const hasName = Boolean(item.name);
+              return (
+                <div
+                  key={index}
+                  className="grid grid-cols-[1fr_auto] items-center gap-3 border-b-2 border-[#D4AF37] border-opacity-20 pb-5 px-2 bg-transparent"
+                >
+                  {hasName ? (
+                    <span className="font-['Inter'] text-lg md:text-xl leading-snug text-left">
+                      {item.name}
+                    </span>
+                  ) : (
+                    <span />
+                  )}
+                  <span className="price-line relative inline-flex justify-end items-center font-['Montserrat'] font-bold text-lg md:text-xl bg-gradient-to-r from-[#D4AF37] to-[#F4E5B0] bg-clip-text text-transparent text-right whitespace-nowrap">
+                    {item.value}
+                  </span>
+                </div>
+              );
+            })}
           </div>
 
-          <div className="border-t-2 border-[#D4AF37] border-opacity-40 pt-8 mb-6">
-            <div className="flex justify-between items-center mb-6">
-              <span className="font-['Montserrat'] font-extrabold text-2xl">VALOR REAL:</span>
-              <span className="font-['Montserrat'] font-bold text-2xl text-[#A0A0A0] line-through">R$ 349,30</span>
+          <div className="border-t-2 border-[#D4AF37] border-opacity-40 pt-8 mb-8 px-2">
+            <div className="flex flex-col items-center gap-2 text-center">
+              <span className="font-['Montserrat'] font-extrabold text-2xl md:text-3xl">VALOR REAL:</span>
+              <span className="font-['Montserrat'] font-bold text-2xl md:text-3xl text-[#A0A0A0] line-through">R$ 349,30</span>
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-[#D4AF37] via-[#F4E5B0] to-[#D4AF37] border-2 border-[#D4AF37] border-opacity-60 rounded-xl p-10 text-center mb-4">
+          <div className="bg-gradient-to-r from-[#D4AF37] via-[#F4E5B0] to-[#D4AF37] border-2 border-[#D4AF37] border-opacity-60 rounded-xl p-8 md:p-10 text-center mb-6">
             <p className="font-['Inter'] text-lg mb-3 text-black font-medium">INVESTIMENTO HOJE:</p>
-            <p className="font-['Montserrat'] font-extrabold text-7xl text-black mb-4">R$ 69,90</p>
+            <p className="font-['Montserrat'] font-extrabold text-6xl md:text-7xl text-black mb-4">R$ 69,90</p>
             <p className="font-['Montserrat'] font-bold text-xl text-black mt-2">
               Economia de mais de 80%
             </p>

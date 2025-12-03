@@ -20,7 +20,7 @@ export default function Testimonials() {
           <Award className="text-[#D4AF37]" size={28} />
         </div>
 
-        <p className="font-['Inter'] text-xl text-center mb-6 text-[#D0D0D0] max-w-3xl mx-auto">
+        <p className="font-['Inter'] text-base md:text-lg leading-snug md:leading-relaxed text-left md:text-center mb-6 max-w-3xl mx-auto text-[#D0D0D0]">
           Resultados reais em poucas semanas. Transformação que você pode sentir desde a primeira aplicação.
         </p>
 
