@@ -12,18 +12,19 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto text-center relative z-10">
         <div className="mb-4 flex items-center justify-center gap-2">
           <div className="h-px w-12 bg-gradient-to-r from-transparent to-[#E5C558]"></div>
-          <Sparkles className="text-[#E5C558]" size={20} />
           <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#E5C558]"></div>
         </div>
 
         <h1 className="font-['Bebas_Neue'] font-normal text-5xl md:text-7xl leading-tight mb-4 tracking-wide uppercase">
-          SENTE VERGONHA POR NÃO CONSEGUIR SATISFAZER AS MULHERES NA CAMA? ISSO MUDA AGORA.
+          SENTE VERGONHA POR <span className="bg-gradient-to-r from-[#5E0B0B] via-[#C41E1E] to-[#5E0B0B] bg-clip-text text-transparent">NÃO CONSEGUIR</span> SATISFAZER AS MULHERES NA CAMA? ISSO MUDA <span className="bg-gradient-to-r from-[#5E0B0B] via-[#C41E1E] to-[#5E0B0B] bg-clip-text text-transparent">AGORA</span>.
         </h1>
 
         <div className="h-1 w-24 bg-gradient-to-r from-[#AD9255] via-[#E5C558] to-[#C9AD6A] mx-auto mb-4"></div>
 
-        <h2 className="font-['Bebas_Neue'] font-normal text-3xl md:text-4xl bg-gradient-to-r from-[#E5C558] to-[#C9AD6A] bg-clip-text text-transparent mb-4 tracking-wide">
-          Esse curso transforma qualquer homem comum em uma máquina do Prazer.
+        <h2 className="font-['Bebas_Neue'] font-normal text-3xl md:text-4xl mb-4 tracking-wide">
+          <span className="bg-gradient-to-r from-[#E5C558] to-[#C9AD6A] bg-clip-text text-transparent">Esse curso transforma qualquer homem comum em uma </span>
+          <span className="bg-gradient-to-r from-[#5E0B0B] via-[#C41E1E] to-[#5E0B0B] bg-clip-text text-transparent">máquina do Prazer</span>
+          <span className="bg-gradient-to-r from-[#E5C558] to-[#C9AD6A] bg-clip-text text-transparent">.</span>
         </h2>
 
         <p className="font-['Inter'] text-lg md:text-xl leading-relaxed mb-12 text-[#E0E0E0] max-w-3xl mx-auto">

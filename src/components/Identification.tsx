@@ -39,7 +39,7 @@ export default function Identification() {
         <div className="h-px bg-gradient-to-r from-transparent via-[#E5C558] to-transparent mb-6"></div>
 
         <h2 className="font-['Bebas_Neue'] font-normal text-4xl md:text-5xl text-center leading-tight mb-12 tracking-wide">
-          Você não está sozinho. Metade dos homens sofre com isso, e o que você sente é mais comum do que imagina.
+          Você não está sozinho. Metade dos homens sofrem com isso, e o que você sente é mais comum do que imagina.
         </h2>
 
         <p className="font-['Inter'] text-lg md:text-xl leading-relaxed text-center mb-4 max-w-3xl mx-auto text-[#D0D0D0]">

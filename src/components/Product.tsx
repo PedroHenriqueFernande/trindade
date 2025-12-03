@@ -79,8 +79,8 @@ export default function Product() {
 
           <div className="space-y-4">
             {specialModules.map((module, index) => (
-              <div key={index} className="bg-gradient-to-r from-[#E5C558] via-[#C9AD6A] to-[#E5C558] border-2 border-[#E5C558] border-opacity-50 rounded-lg p-6 hover:bg-opacity-100 transition-all">
-                <p className="font-['Montserrat'] font-bold text-lg text-black">{module}</p>
+              <div key={index} className="bg-gradient-to-r from-[#1A1A1A] via-black to-[#1A1A1A] border-l-4 border-[#E5C558] rounded-lg p-6 hover:border-opacity-100 transition-all">
+                <p className="font-['Inter'] text-lg">{module}</p>
               </div>
             ))}
           </div>
